@@ -23,7 +23,7 @@ public class Driver {
 	
 	static Salesman[] getTopFive(Salesman[] allSales){
 
-		Salesman[] topFive = createMen(100,1);
+		Salesman[] topFive = createMen(5,1);
 		
 		for(int i = 0; i < allSales.length; i++) {
 			for(int j = 0; j < topFive.length; j++) {
